@@ -1,0 +1,236 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9220938000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "As a user i want to verify Home page",
+        "description": "",
+        "id": "home-page-testing;as-a-user-i-want-to-verify-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 115600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 172720900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "As a user I am on Homepage",
+            "match": {
+              "location": "IthPharmaStep.asAUserIAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1581506400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click On Home",
+            "match": {
+              "location": "IthPharmaStep.iClickOnHome()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 298855000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify text \"COVID 19\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "COVID 19",
+                  "offset": 15
+                }
+              ],
+              "location": "IthPharmaStep.iVerifyText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 336308700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click On registered Page",
+            "match": {
+              "location": "IthPharmaStep.iClickOnRegisteredPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1167937400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter Username \"Himesh\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Himesh",
+                  "offset": 18
+                }
+              ],
+              "location": "IthPharmaStep.iEnterUsername(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116308200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter Password \"Himesh007@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Himesh007@",
+                  "offset": 18
+                }
+              ],
+              "location": "IthPharmaStep.iEnterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119256900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter Confrim Password \" Himesh007 \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": " Himesh007 ",
+                  "offset": 26
+                }
+              ],
+              "location": "IthPharmaStep.iEnterConfrimPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 137702100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter FullName \"Ashish M mor\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ashish M mor",
+                  "offset": 18
+                }
+              ],
+              "location": "IthPharmaStep.iEnterFullName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140646000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter Email Adress \"Ashsihmor0757@gmail.com \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ashsihmor0757@gmail.com ",
+                  "offset": 22
+                }
+              ],
+              "location": "IthPharmaStep.iEnterEmailAdress(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 177754900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter Hospital Name \"Barnet Hospital\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Barnet Hospital",
+                  "offset": 23
+                }
+              ],
+              "location": "IthPharmaStep.iEnterHospitalName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41122000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on registered button",
+            "match": {
+              "location": "IthPharmaStep.iClickOnRegisteredButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 379320800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I verify texta \"Passwords do not match\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Passwords do not match",
+                  "offset": 16
+                }
+              ],
+              "location": "IthPharmaStep.iVerifyTexta(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Home page Testing",
+    "description": "/**\r\n* Created by Ashish Mor\r\n*/",
+    "id": "home-page-testing",
+    "keyword": "Feature",
+    "uri": "IthPharma.feature"
+  }
+]
